@@ -112,9 +112,9 @@ export default function HomePage() {
                 <button className="px-8 py-4 bg-primary text-on-primary font-bold rounded-lg text-[16px] leading-[1.5] transition-all hover:scale-105 active:opacity-80 gold-glow">
                   Register Now
                 </button>
-                <button className="px-8 py-4 bg-transparent border border-white text-white font-bold rounded-lg text-[16px] leading-[1.5] transition-all hover:bg-white/10">
+                <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSd6gr-IWGDWTvthpmgfizUVA3Vb_mmMP4SY6wZZGYkCGbqWTA/viewform?usp=publish-editor"} className="px-8 py-4 bg-transparent border border-white text-white font-bold rounded-lg text-[16px] leading-[1.5] transition-all hover:bg-white/10">
                   View Courses
-                </button>
+                </Link>
                 <Link
                   href="/contact"
                   className="px-8 py-4 bg-transparent text-white font-bold rounded-lg text-[16px] leading-[1.5] flex items-center gap-2 group"
